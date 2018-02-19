@@ -3,9 +3,13 @@ import { View } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+import reducers from './reducers';
+
 const App = () => {
   return (
-    <View />
+    <Provider store={creatStore(reducers)}>
+      <View />
+    </Provider>
   );
 };
 
