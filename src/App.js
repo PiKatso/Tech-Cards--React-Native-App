@@ -4,11 +4,11 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import reducers from './reducers';
-import { Header } from './components/common';
+import { Header } from './common';
 
 const App = () => {
   return (
-    <Provider store={creatStore(reducers)}>
+    <Provider store={createStore(reducers)}>
       <View>
         <Header headerText="Tech Cards" />
       </View>
