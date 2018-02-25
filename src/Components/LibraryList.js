@@ -7,4 +7,4 @@ class LibraryList extends Component {
   }
 }
 
-export default LibraryList;
+export default connect()(LibraryList);
