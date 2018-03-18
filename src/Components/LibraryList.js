@@ -15,8 +15,8 @@ class LibraryList extends Component {
   }
 
   // tells ListView how to render a single list item
-  renderRow() {
-    return <ListItem />;
+  renderRow(library) {
+    return <ListItem library={library} />;
   }
 
   render() {
