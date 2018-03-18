@@ -4,13 +4,15 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import reducers from './reducers';
-import { Header } from './common';
+import { Header } from './Components/common';
+import LibraryList from './Components/LibraryList';
 
 const App = () => {
   return (
     <Provider store={createStore(reducers)}>
       <View>
         <Header headerText="Tech Cards" />
+        <LibraryList />
       </View>
     </Provider>
   );
