@@ -1,4 +1,4 @@
-export const selectLibrary = (libraryID) => {
+export const selectLibrary = (libraryId) => {
   // creates and object with type property/action
   return {
     type: 'select_library',
