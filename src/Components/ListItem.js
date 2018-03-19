@@ -11,7 +11,7 @@ class ListItem extends Component {
     const { id, title } = this.props.library;
 
     return (
-      <ToucahableWithoutFeedback
+      <TouchableWithoutFeedback
         onPress={() => this.props.selectLibrary(id)}
       >
         <View>
