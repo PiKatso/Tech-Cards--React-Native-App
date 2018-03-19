@@ -1,4 +1,4 @@
-export default (state, action) => {
+export default (state = null, action) => {
   //switch statement informs what it does and action type
   switch (action.type) {
     case 'select_library': //handles action type
