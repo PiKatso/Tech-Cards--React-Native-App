@@ -21,7 +21,7 @@ class ListItem extends Component {
             </Text>
           </CardSection>
         </View>
-      <TouchableWithoutFeedback/>
+      </TouchableWithoutFeedback>
     );
   }
 }
