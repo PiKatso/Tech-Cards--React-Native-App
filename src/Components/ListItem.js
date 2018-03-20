@@ -33,4 +33,8 @@ const styles = {
   }
 };
 
+const mapStateToProps = state => {
+  return { selectedLibraryId: state.selectedLibraryId };
+};
+
 export default connect(null, actions)(ListItem);
